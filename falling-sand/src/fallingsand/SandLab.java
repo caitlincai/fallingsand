@@ -24,7 +24,6 @@ public class SandLab {
 	Color blue = Color.BLUE;
 	Color pink = Color.PINK;
 
-	// do not add any more fields
 	private int[][] grid;
 	private SandDisplay display;
 
@@ -132,7 +131,6 @@ public class SandLab {
 		}
 	}
 
-	// do not modify
 	public void run() {
 		while (true) {
 			for (int i = 0; i < display.getSpeed(); i++)
